@@ -1,0 +1,21 @@
+{
+  "name": "nomoreads",
+  "version": "1.0.0",
+  "description": "The main website for No More Ads.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:nomoreads/nomoreads.org.git"
+  },
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://gitlab.com/nomoreads/nomoreads.org/issues"
+  },
+  "homepage": "https://www.nomoreads.org/",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-minify": "^2.1.0"
+  }
+}
