@@ -1,26 +1,23 @@
-Contributing to No More Ads
+# Contributing to No More Ads
 
-  Improvements to the website are always welcome!
+Improvements to the website are always welcome.
 
-Issues
-------
+## Issues
 
-  Report bugs, defects, and other issues on the GitLab issue tracker.
+Report bugs, defects, and other issues using the [issue tracker](https://gitlab.com/nomoreads/nomoreads.org/issues).
 
-Contributing Code
------------------
+## Contributing Code
 
-  To contribute code, follow these steps:
+To contribute code, follow these steps:
 
-    1. Create an issue with the appropriate label and describe what you are
-       working on.
-    2. Fork and clone the repository.
-    3. Make your changes.
-    4. Push your changes.
-    5. Create a merge request.
+  1. Create an issue with the appropriate label and describe what you are
+     working on.
+  2. Fork and clone the repository.
+  3. Make your changes.
+  4. Push your changes.
+  5. Create a merge request.
 
-Other Ways to Get Involved
---------------------------
+## Other Ways to Get Involved
 
   - Do you agree with the No More Ads Manifesto? Do you want to be featured on
     our website? Send a message to contact@nomoreads.org
