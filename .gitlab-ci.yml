@@ -1,9 +1,9 @@
 pages:
   stage: deploy
   script:
-  - echo 'Nothing to do...'
+  - npm install -g gulp
   artifacts:
     paths:
-    - public
+    - dist
   only:
   - master
