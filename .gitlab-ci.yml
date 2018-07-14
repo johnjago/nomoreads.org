@@ -3,7 +3,7 @@ image: node:6
 pages:
   stage: deploy
   script:
-  - npm install -g gulp
+  - npm install
   - gulp
   artifacts:
     paths:
