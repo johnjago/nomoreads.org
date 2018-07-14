@@ -8,6 +8,6 @@ pages:
     - gulp
   artifacts:
     paths:
-    - dist
+    - public
   only:
   - master
