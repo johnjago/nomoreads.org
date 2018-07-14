@@ -3,8 +3,9 @@ image: node:6
 pages:
   stage: deploy
   script:
-  - npm install
-  - gulp
+    - npm install -g gulp-cli
+    - npm install
+    - gulp
   artifacts:
     paths:
     - dist
