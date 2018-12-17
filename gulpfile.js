@@ -1,21 +1,21 @@
-var gulp = require('gulp');
-var htmlmin = require('gulp-htmlmin');
-var cleanCSS = require('gulp-clean-css');
-var minify = require('gulp-minify');
+const gulp = require('gulp');
+const htmlmin = require('gulp-htmlmin');
+const cleanCSS = require('gulp-clean-css');
+const minify = require('gulp-minify');
 
-gulp.task('html', function() {
+function html() {
   return gulp.src('*.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(gulp.dest('public'));
-});
+    .pipe(gulp.dest('dist'));
+}
 
-gulp.task('css', function() {
+function css() {
   return gulp.src('css/*.css')
     .pipe(cleanCSS({ compatibility: 'ie8' }))
-    .pipe(gulp.dest('public/css/'));
-});
+    .pipe(gulp.dest('dist/css/'));
+}
 
-gulp.task('js', function() {
+function js() {
   return gulp.src('js/*.js')
     .pipe(minify({
         ext: {
@@ -24,17 +24,18 @@ gulp.task('js', function() {
         noSource: true,
         ignoreFiles: ['.min.js']
     }))
-    .pipe(gulp.dest('public/js'));
-});
+    .pipe(gulp.dest('dist/js'));
+}
 
-gulp.task('fonts', function() {
+function fonts() {
   return gulp.src('fonts/*')
-    .pipe(gulp.dest('public/fonts/'));
-});
+    .pipe(gulp.dest('dist/fonts/'));
+}
 
-gulp.task('img', function() {
+function img() {
   return gulp.src('img/**/*')
-    .pipe(gulp.dest('public/img/'));
-});
+    .pipe(gulp.dest('dist/img/'));
+}
 
-gulp.task('default', ['html', 'css', 'js', 'fonts', 'img']);
+const build = gulp.parallel(html, css, js, fonts, img);
+gulp.task('default', build);

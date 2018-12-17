@@ -1,21 +1,18 @@
 {
   "name": "nomoreads",
   "version": "1.0.0",
-  "description": "The main website for No More Ads.",
+  "description": "Website for the No More Ads manifesto.",
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com:nomoreads/nomoreads.org.git"
+    "url": "git+ssh://git@gitlab.com:johnjago/nomoreads.org.git"
   },
   "license": "CC-BY-4.0",
-  "bugs": {
-    "url": "https://gitlab.com/nomoreads/nomoreads.org/issues"
-  },
-  "homepage": "https://www.nomoreads.org/",
+  "homepage": "https://.nomoreads.org/",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.9.0",
-    "gulp-htmlmin": "^4.0.0",
-    "gulp-minify": "^2.1.0"
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-minify": "^3.1.0"
   }
 }
