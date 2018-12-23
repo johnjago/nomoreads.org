@@ -1,0 +1,30 @@
+baseurl = "https://nomoreads.org/"
+languageCode = "en-us"
+title = "No More Ads"
+theme = "hugo-type-theme"
+# Posts per page
+paginate = 5
+
+[params]
+	author = "John Jago"
+	description = "No More Ads gives you insights, tools, and advice to help you make money online without advertising."
+	# The keywords will be added as a meta tag. Delimit them with a comma.
+	keywords = "ads, advertising, movement, online revenue, alternatives"
+	# Either show custom avatar on the top
+	# left by adding the filename in below
+	avatar = "favicon-32x32.png"
+
+	headerText = "No More Ads gives you insights, tools, and advice to help you make money online without advertising."
+	# To add a header background to the main site, save your image under static/img/.
+	# If now image path is provided, a orange background will be shown instead.
+	headerImage = ""
+	copyright = "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+
+	[params.social]
+		# Insert your accout name and the icon will be shown in the right menu
+		rss = true
+		homepage = false
+		email = "contact@nomoreads.org"
+		github = ""
+		twitter = "nomoreadsOrg"
+		gitlab = "johnjago/nomoreads.org"
