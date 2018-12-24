@@ -1,0 +1,24 @@
+baseurl = "https://nomoreads.org/"
+languageCode = "en-us"
+title = "No More Ads"
+theme = "type"
+# Posts per page
+paginate = 5
+
+[params]
+	author = "John Jago"
+	description = "No More Ads gives you insights, tools, and advice to help you make money online without advertising."
+	keywords = "ads, advertising, movement, online revenue, alternatives"
+	avatar = "favicon-128x128.png"
+
+	headerText = "No More Ads gives you insights, tools, and advice to help you make money online without advertising."
+	headerImage = ""
+	copyright = "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+
+	[params.social]
+		rss = true
+		homepage = false
+		email = "contact@nomoreads.org"
+		github = ""
+		twitter = "nomoreadsOrg"
+		gitlab = "johnjago/nomoreads.org"
