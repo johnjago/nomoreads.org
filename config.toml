@@ -2,7 +2,7 @@ baseurl = "https://nomoreads.org/"
 languageCode = "en-us"
 title = "No More Ads"
 theme = "type"
-paginate = 5
+paginate = 1
 
 [params]
 	avatar = "favicon-128x128.png"
@@ -13,4 +13,3 @@ paginate = 5
 		rss = true
 		homepage = true
 		email = "contact@nomoreads.org"
-		twitter = "nomoreadsOrg"

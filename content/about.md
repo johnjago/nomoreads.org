@@ -5,9 +5,7 @@ menu = "nav"
 disableComments = true
 +++
 
-We believe the web is a tool for sharing knowledge and bringing people together, not as a place where users are profiled for targeted ads. We think that there are better ways of monetizing apps, services, and websites than through advertisements.
-
-The internet should be a place to share and acquire knowledge, to communicate and socialize, not a marketplace where users get targeted and profiled for marketing purposes.
+The web is a tool for sharing knowledge and bringing people together, not as a place where users are profiled for targeted ads. There are better ways of monetizing apps, services, and websites than through advertisements.
 
 ## The Problem
 
@@ -15,7 +13,7 @@ We are concerned that, progressively, internet is becoming a marketing playgroun
 
 We are worried that the privacy of users in internet is continuously being jeopardized, not by criminal organizations, but by advertisers and corporations, and that users are being educated to share their lives and give away their personal information, to be collected and incorporated into profiles for targeted ads.
 
-We don’t want to be tracked or profiled. We don’t want to be ubiquitously exposed to ads. We are human beings, we are not a product.
+We don’t want to be tracked or profiled. We don’t want to be ubiquitously exposed to ads. We are human beings, not products.
 
 ## What can I do?
 
