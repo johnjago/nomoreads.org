@@ -1,4 +1,4 @@
-baseurl = "https://nomoreads.org/"
+baseurl = "https://johnjago.github.io/nomoreads.org/"
 languageCode = "en-us"
 title = "No More Ads"
 theme = "type"
@@ -12,4 +12,3 @@ paginate = 1
 	[params.social]
 		rss = true
 		homepage = true
-		email = "contact@nomoreads.org"
