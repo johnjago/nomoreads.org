@@ -7,7 +7,7 @@ paginate = 1
 [params]
 	avatar = "favicon-128x128.png"
 	headerText = "There are better ways of monetizing apps, services, and websites than through advertisements."
-	copyright = "[Uncopyright](https://uncopyright.org/) &middot; [Our Manifesto](/manifesto)"
+	copyright = "[Uncopyright](https://uncopyright.org/) &middot; [Our Manifesto](manifesto)"
 
 	[params.social]
 		rss = true

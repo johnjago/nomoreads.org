@@ -1,6 +1,6 @@
 # No More Ads
 
-The Hugo site powering [nomoreads.org](https://nomoreads.org)
+The Hugo site powering nomoreads.org
 
 ## License
 
